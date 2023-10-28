@@ -11,7 +11,7 @@ import java.util.List;
 public interface BookMapper {
 
     //查询
-     @Select("select * from book")
+
      List<Book> queryAll();
 
 }
